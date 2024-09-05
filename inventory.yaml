@@ -1,0 +1,4 @@
+iot:
+  hosts:
+    iot-30:
+      ansible_host: 141.72.12.237

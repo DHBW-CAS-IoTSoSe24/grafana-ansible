@@ -1,0 +1,6 @@
+- name: Installs grafana
+  hosts: iot-30
+  roles:
+    - grafana
+  tags:
+    - grafana
