@@ -4,6 +4,7 @@
       - apt-transport-https
       - software-properties-common
       - wget
+      - certbot
     state: present
   become: true
 
