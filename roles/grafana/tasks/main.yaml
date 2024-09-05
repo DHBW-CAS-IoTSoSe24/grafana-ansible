@@ -1,4 +1,4 @@
-- name: install apt-transport-https software-properties-common wget
+- name: install apt-transport-https software-properties-common wget certbot
   ansible.builtin.package:
     name:
       - apt-transport-https
